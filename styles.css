@@ -1,0 +1,48 @@
+body{
+  font-family: "arial", "verdana", sans-serif;
+}
+
+header {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  font-size: 250%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+
+  margin-left: 0;
+  margin-right: 0; 
+}
+
+.logo {
+  max-height: 75px;
+  align-items: right;
+}
+
+form {
+  border: solid 1px black;
+  background-color: lightgray;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+  text-align: center;
+
+  padding: 40px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+footer {
+  border-top: black solid 2px;
+  background-color: rgb(42,42,42);
+  color: rgb(163, 163, 163);
+
+  min-height: 40px;
+  font-size: smaller;
+
+  text-align: center;
+  padding: 10px;
+}
